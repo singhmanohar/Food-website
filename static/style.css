@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+#header::before {
+    background-color: black;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+#navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navbar div {
+    margin: 0px;
+    padding: 0px;
+    height: 33px;
+    width: 37px;
+}
+
+#navbar img {
+    width: 34px;
+    height: 31px;
+    margin: 1px 12px;
+    padding: 0px 3px;
+}
+
+#navbar #ul {
+    display: flex;
+    align-items: center;
+    margin: 2px 58px;
+    padding: 0px;
+}
+
+#navbar #ul li {
+    list-style: none;
+}
+
+#navbar #ul li a {
+    text-decoration: none;
+    margin: 5px 23px;
+    padding: 2px 9px;
+    font-size: 21px;
+    color: white;
+}
+
+#navbar #ul li a:hover {
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 11px;
+    color: black;
+}
+
+/* section */
+#section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0px;
+    color: white;
+    text-align: center;
+}
+
+#section1::before {
+    content: "";
+    background: url('img/table_food.jpg') center center / cover no-repeat;
+    position: absolute;
+    top: -98px;
+    left: 0px;
+    width: 100%;
+    height: 247%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#section1 h2 {
+    margin: 6px 2px;
+    padding: 0px 8px;
+    font-size: 26px;
+}
+
+#section1 p {
+    margin: 1px 2px;
+    padding: 0px 6px;
+    font-size: 14px;
+}
+
+#section1 button {
+    margin: 8px 2px;
+    padding: 2px 8px;
+    font-size: 9px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(185, 9, 9);
+    border: none;
+    cursor: pointer;
+}
+
+#section1 button:hover {
+    background-color: rgb(129, 5, 5);
+}
+
+/* section2 */
+#section2 {
+    position: relative;
+}
+
+#section2 h2 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.containeritem {
+    border: 3px solid red;
+    margin: 9px 9px;
+    padding: 6px 7px;
+    border-radius: 12px;
+    background-color: #fbecec;
+    width: 161px;
+}
+
+.containeritem img {
+    width: 106px;
+    height: 94px;
+}
+
+.containeritem p {
+    font-size: 12px;
+}
+
+.containeritem h2 {
+    font-size: 21px;
+}
+
+/* section3 */
+#section3 {
+    margin: 16px 0px;
+    position: relative;
+}
+
+#section3::before {
+    background: url('img/food_background.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+#section3 h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 27px;
+}
+
+#section3container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section3 img {
+    width: 59px;
+    height: 59px;
+    margin: 13px 40px;
+    padding: 5px 6px;
+
+}
+
+/* section4 */
+
+#section4 {
+
+    position: relative;
+    margin: -18px 0px;
+    padding: 2px 2px;
+}
+
+#section4::before {
+    background: url('img/contact-us.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#section4 h2{
+    text-align: center;
+    font-size: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formgroup{
+     margin: 2px 2px;
+     padding: 2px 2px;
+     
+}
+form label{
+    font-size: 30px;
+}
+input[type]{
+    font-size: 18px;
+    padding: 2px 2px;
+    text-align:  center;
+    border-radius: 8px;
+    width: 319px;
+}
+button{
+    margin: 2px 2px;
+    padding: 5px 11px;
+    background-color: rgb(197 4 4);
+    cursor: pointer;
+    color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+/* footer */
+footer{
+    margin-top: 19px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive website</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 610px)" href="phone.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <div id="logo">
+                <img src="img/logo.png" alt="food">
+            </div>
+            <ul id="ul">
+                <li class="item"><a href="#home">home</a> </li>
+                <li class="item"><a href="#services">services</a> </li>
+                <li class="item"><a href="#contact">contact</a> </li>
+                <li class="item"><a href="#copyright">copyright</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home">
+        <section id="section1">
+            <div>
+                <h2>welcome to my online meal</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus adipis</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            </div>
+            <div>
+                <button>order now</button>
+            </div>
+        </section>
+    </div>
+    <div id="services">
+        <section id="section2">
+            <h2>our services</h2>
+            <div id="container">
+                <div class="containeritem" id="box1">
+                    <img src="img/no_background_pizza.png" alt="">
+                    <h2>order pizza</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam nisi possimus sit minus
+                        eius,
+                        asperiores fugit, nesciunt quis laudantium, distinctio esse nostrum?</p>
+                </div>
+                <div class="containeritem" id="box2">
+                    <img src="img/delivery-man.png" alt="">
+                    <h2>order pizza</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam nisi possimus sit minus
+                        eius,
+                        asperiores fugit, nesciunt quis laudantium, distinctio esse nostrum?</p>
+                </div>
+                <div class="containeritem" id="box3">
+                    <img src="img/cake.jpg" alt="">
+                    <h2>order pizza</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam nisi possimus sit minus
+                        eius,
+                        asperiores fugit, nesciunt quis laudantium, distinctio esse nostrum?</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="section3">
+        <h2>our clients</h2>
+        <div id="section3container">
+            <div class="clientitem">
+                <img src="img/apple.png" alt="">
+            </div>
+            <div class="clientitem">
+                <img src="img/hp.png" alt="">
+            </div>
+            <div class="clientitem">
+                <img src="img/microsoft.png" alt="">
+            </div>
+            <div class="clientitem">
+                <img src="img/skypee.png" alt="">
+            </div>
+            <div class="clientitem">
+                <img src="img/apple.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div id="contact">
+        <section id="section4">
+            <h2>contact</h2>
+            <div id="section4box">
+                <form method="post" action="/contact">
+                    <label for="name">name</label>
+                    <div class="formgroup">
+                        <input type="text" id="name" placeholder="enter your name" name="name">
+                    </div>
+                    <label for="email">email</label>
+                    <div class="formgroup">
+                        <input type="email" id="email" placeholder="enter your email" name="email">
+                    </div>
+                    <label for="password">password</label>
+                    <div class="formgroup">
+                        <input type="password" id="password" placeholder="enter your password" name="password">
+                    </div>
+                    <label for="bio">bio</label>
+                    <div class="formgroup" id="textarea">
+                        <textarea name="bio" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>submid</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div id="copyright">
+            copyright &copy; www.myonlinemeal.com . all rights resurved
+        </div>
+    </footer>
+</body>
+
+</html>

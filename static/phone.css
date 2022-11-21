@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+#navbar{
+    flex-direction: column;
+     overflow: hidden; 
+}
+#navbar #ul li a {
+    text-decoration: none;
+    margin: 5px 3px;
+    padding: 2px 9px;
+    font-size: 14px;
+    color: white;
+}
+
+input[type]{
+    font-size: 1rem;
+    padding: 2px 2px;
+    text-align:  center;
+    border-radius: 8px;
+    width: 164px;
+}
+textarea{
+    width: 100px;
+    height: 100px;
+}
+#section1::before{
+    content: "";
+    background: url('img/table_food.jpg') center center / cover no-repeat;
+    position: absolute;
+    top: -120px;
+    left: 0px;
+    width: 100%;
+    height: 247%;
+    z-index: -1;
+    opacity: 0.8;
+}
+@media only  screen and (max-width:305px){
+#section2{
+    margin-top: 150px;
+}
+#navbar #ul li a{
+    margin: 5px 0px;
+}
+}
